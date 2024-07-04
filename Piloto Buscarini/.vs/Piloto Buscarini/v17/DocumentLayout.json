@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\controllers\\pilotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:controllers\\pilotocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\controllers\\nacionalidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:controllers\\nacionalidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\models\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:models\\nacionalidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\dto\\pilotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:dto\\pilotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\pilotocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:pilotocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\models\\pilotobuscarinidbmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:models\\pilotobuscarinidbmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\models\\piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:models\\piloto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\models\\sexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:models\\sexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|d:\\usuario\\desktop\\programacion iii\\zejercicios progra\\pilot-login-exercise-404873-buscarini-agustin\\piloto buscarini\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE500509-3E92-4F77-9334-DB2B908D3351}|Piloto Buscarini.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PilotoController.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Controllers\\PilotoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PilotoController.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Controllers\\PilotoController.cs",
+              "RelativeToolTip": "Controllers\\PilotoController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwFIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T00:21:16.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T00:21:15.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NacionalidadController.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Controllers\\NacionalidadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NacionalidadController.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Controllers\\NacionalidadController.cs",
+              "RelativeToolTip": "Controllers\\NacionalidadController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T21:25:31.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PilotoBuscariniDbmContext.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\PilotoBuscariniDbmContext.cs",
+              "RelativeDocumentMoniker": "Models\\PilotoBuscariniDbmContext.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\PilotoBuscariniDbmContext.cs",
+              "RelativeToolTip": "Models\\PilotoBuscariniDbmContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA7wBEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T05:44:56.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PilotoDTO.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\DTO\\PilotoDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\PilotoDTO.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\DTO\\PilotoDTO.cs",
+              "RelativeToolTip": "DTO\\PilotoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T05:32:45.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nacionalidad.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\Nacionalidad.cs",
+              "RelativeDocumentMoniker": "Models\\Nacionalidad.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\Nacionalidad.cs",
+              "RelativeToolTip": "Models\\Nacionalidad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T05:08:10.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PilotoContext.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\PilotoContext.cs",
+              "RelativeDocumentMoniker": "PilotoContext.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\PilotoContext.cs",
+              "RelativeToolTip": "PilotoContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:07:05.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sexo.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\Sexo.cs",
+              "RelativeDocumentMoniker": "Models\\Sexo.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\Sexo.cs",
+              "RelativeToolTip": "Models\\Sexo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T05:08:35.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T05:08:39.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Piloto.cs",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\Piloto.cs",
+              "RelativeDocumentMoniker": "Models\\Piloto.cs",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\Models\\Piloto.cs",
+              "RelativeToolTip": "Models\\Piloto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T05:08:43.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Usuario\\Desktop\\Programacion III\\zEJERCICIOS PROGRA\\pilot-login-exercise-404873-Buscarini-Agustin\\Piloto Buscarini\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-02T02:04:25.881Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

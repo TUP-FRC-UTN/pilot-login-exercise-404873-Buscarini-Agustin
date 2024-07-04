@@ -1,0 +1,6 @@
+@Piloto_Buscarini_HostAddress = http://localhost:5213
+
+GET {{Piloto_Buscarini_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

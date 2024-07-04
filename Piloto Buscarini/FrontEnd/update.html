@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh; width: 100vh;">
+        <form class="row g-3" method="get" action="form.html" id="PutPiloto">
+            <h1>Editar Piloto</h1>
+            <div class="col-md-6">
+                <label for="inputId" class="form-label">ID</label>
+                <select class="form-select" aria-label="Default select example" id="idSelect" name="id">
+                <option selected value="">Seleccione ID</option>
+                </select>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <label for="inputNombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputNombre" name="nombre">
+            </div>
+            <div class="col-md-6">
+              <label for="inputApellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="inputApellido" name="apellido">
+            </div>
+            <div class="col-12">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" name="email" disabled>
+            </div>
+            <div class="col-md-6">
+                <label for="inputHoras" class="form-label">Horas de vuelo</label>
+                <input type="text" class="form-control" id="inputHoras" name="horas">
+            </div>
+            <div class="col-md-6">
+                <label for="inputSexo" class="form-label">Sexo</label>
+                <select class="form-select" aria-label="Default select example" id="sexoSelect" name="sexo">
+                    <option selected value="">Seleccione sexo</option>
+                </select>
+            </div>
+            <div class="col-12">
+              <label for="inputPais" class="form-label">Nacionalidad</label>
+              <select class="form-select" aria-label="Default select example" id="nacionalidadSelect" name="nacionalidad">
+                <option selected value="">Seleccione la nacionalidad</option>
+            </select>
+            </div>
+            <div id="error-message" class="mt-3 text-danger d-none">Los datos son incorrectos</div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Confirmar Detalles</button>
+            </div>
+          </form>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+    <script>
+        $(document).ready(function() {
+        var queryString = window.location.search;
+        var urlParams = new URLSearchParams(queryString);
+        var email = urlParams.get('email');
+        $('#inputEmail').val(email);
+    });
+        $("form").validate({
+            rules: {
+                id: {
+                    required: true,
+                },
+                nombre: {
+                    required: true,
+                },
+                apellido: {
+                    required: true,
+                },
+                email: {
+                    required: true,
+                },
+                horas:{
+                    required: true,
+                },
+                sexo: {
+                    required: true,
+                },
+                nacionalidad: {
+                    required: true,
+                }
+            },
+            messages: {
+                id: {
+                    required: "El ID es requerido"
+                },
+                nombre: {
+                    required: "El nombre es requerido"
+                },
+                apellido: {
+                    required: "El apellido es requerido"
+                },
+                email: {
+                    required: "El campo email es requerido",
+                    email: "El email no es valido"
+                },
+                horas:{
+                    required: "Ingrese horas de vuelo",
+                },
+                sexo: {
+                    required: "El sexo es requerido"
+                },
+                nacionalidad: {
+                    required: "El pais es requerido"
+                }
+            }, submitHandler: function(form){
+                var id = $('#idSelect').val();
+                
+
+                    fetch('https://localhost:7249/api/Piloto/' + id, {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            id: id,
+                            Nombre: $('#inputNombre').val(),
+                            Apellido: $('#inputApellido').val(),
+                            HorasVuelo: $('#inputHoras').val(),
+                            IdSexo: $('#sexoSelect').val(),
+                            IdNacionalidad: $('#nacionalidadSelect').val()
+                        })
+                    })
+                    .then(response => response.json())
+                    .then(responseData => {
+                        if (responseData.message === "Se editó exitosamente.") {
+                            $('#success-message').removeClass('d-none');
+                        } else {
+                            $('#error-message').text(responseData.message).removeClass('d-none');
+                        }
+                    })
+                    .catch(error => {
+                        $('#error-message').text('Error al editar el piloto').removeClass('d-none');
+                    });
+                }
+            })
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('https://localhost:7249/api/Sexo')
+            .then(response => response.json())
+            .then(sexos => {
+            const sexosSelect = document.getElementById('sexoSelect');
+
+            sexos.forEach(sexo => {
+                const option = document.createElement('option');
+                option.value = sexo.id;
+                option.textContent = sexo.sexo1;
+                sexosSelect.appendChild(option);
+            });
+        });
+            fetch('https://localhost:7249/api/Nacionalidad')
+            .then(response => response.json())
+            .then(nacionalidades => {
+                const nacionalidadesSelect = document.getElementById('nacionalidadSelect');
+
+            nacionalidades.forEach(nacionalidad => {
+                const option = document.createElement('option');
+                option.value = nacionalidad.id;
+                option.textContent = nacionalidad.nombre;
+                nacionalidadesSelect.appendChild(option);
+                });
+            });
+            fetch('https://localhost:7249/api/Piloto')
+                .then(response => response.json())
+                .then(pilotos => {
+                    const idSelect = document.getElementById('idSelect');
+                    pilotos.forEach(piloto => {
+                        const option = document.createElement('option');
+                        option.value = piloto.id;
+                        option.textContent = piloto.id;
+                        idSelect.appendChild(option);
+                    });
+                });
+    });
+    </script>
+</body>
+</html>
